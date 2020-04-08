@@ -1,0 +1,17 @@
+{% extends 'base.html'%}
+
+{% block content %}
+{% for result in result %}
+<h3>STARTUP DATA : {{result}}</h3>
+{% endfor %}
+
+{% for result in result0 %}
+<h3>PREDICTED : {{result}}</h3>
+{% endfor %}
+
+
+{% for result1 in result1 %}
+<h3>DATA : {{result1}}</h3>
+{% endfor %}
+
+{% endblock %}
